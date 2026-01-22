@@ -1,0 +1,239 @@
+# ===========================================
+# .gitignore for Data Science Projects
+# ===========================================
+# Copy this file to your project root directory
+# ===========================================
+
+# ===========================================
+# VIRTUAL ENVIRONMENTS - DO NOT UPLOAD!
+# These can be 100s of MBs and are machine-specific
+# ===========================================
+venv/
+env/
+.venv/
+.env/
+ENV/
+myenv/
+datascience_env/
+*_env/
+.conda/
+conda-env/
+.python-version
+
+# ===========================================
+# Python Bytecode & Build
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===========================================
+# Jupyter Notebook Checkpoints
+# ===========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===========================================
+# IDE / Editor Settings
+# ===========================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# ===========================================
+# Operating System Files
+# ===========================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================================
+# Secrets & Credentials - NEVER UPLOAD!
+# ===========================================
+.env
+.env.local
+.env.*.local
+*.env
+secrets.yaml
+secrets.yml
+secrets.json
+config.local.py
+credentials.json
+token.json
+*.pem
+*.key
+*.p12
+*.pfx
+service-account.json
+client_secret*.json
+
+# API Keys file
+api_keys.py
+api_keys.txt
+.api_keys
+
+# AWS
+.aws/
+aws_credentials
+
+# ===========================================
+# Logs & Databases
+# ===========================================
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# ===========================================
+# Data Files (UNCOMMENT IF NEEDED)
+# Large data files should often be excluded
+# ===========================================
+# *.csv
+# *.xlsx
+# *.xls
+# *.parquet
+# *.feather
+# *.h5
+# *.hdf5
+# *.pickle
+# *.pkl
+# data/
+# datasets/
+# raw_data/
+# processed_data/
+
+# ===========================================
+# Model Files (UNCOMMENT IF NEEDED)
+# Trained models can be very large
+# ===========================================
+# *.h5
+# *.hdf5
+# *.pkl
+# *.pickle
+# *.joblib
+# *.model
+# *.pt
+# *.pth
+# models/
+# saved_models/
+# checkpoints/
+
+# ===========================================
+# Output & Reports
+# ===========================================
+# output/
+# reports/
+# figures/
+# plots/
+
+# ===========================================
+# Testing
+# ===========================================
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ===========================================
+# Documentation Build
+# ===========================================
+docs/_build/
+site/
+
+# ===========================================
+# Package Distribution
+# ===========================================
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===========================================
+# Misc
+# ===========================================
+*.bak
+*.tmp
+*.temp
+.cache/
+*.manifest
+*.spec
+
