@@ -132,7 +132,7 @@ df.head()
 
 **Your Findings:**
 - What do the actual values look like?
-
+  Some are text and some are numeric according to their assigned columns.
 - Do you notice anything unusual or unexpected?
   SurgeryDuration is stored as text with 'min' next to it, which means it can't be analyzed numerically without cleaning. PreoperativeNotes and PostoperativeNotes are also unstructured text.
 - Are there any values that might need cleaning before analysis?
